@@ -169,6 +169,7 @@ export const Dialog = forwardRef<HTMLDialogElement, DialogProps>(
       >
         {closeButton !== false && (
           <Button
+            type="button"
             aria-label={closeButton}
             data-color='neutral'
             icon
